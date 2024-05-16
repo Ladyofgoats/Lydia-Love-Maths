@@ -130,14 +130,14 @@ body {
     color: white;
 }
 
-.btn--orange {
-    border-color: orange;
-    color: orange;
+.btn--purple {
+    border-color: rgb(192, 34, 192);
+    color: rgb(192, 34, 192);
 }
 
-.btn--orange:active,
-.btn--orange:hover {
-    background-color: darkorange;
+.btn--purple:active,
+.btn--purple:hover {
+    background-color: rgb(192, 34, 192);
     color: white;
 }
 
