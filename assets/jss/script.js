@@ -43,6 +43,16 @@ function checkAnswer() {
 }
 
 function calculateCorrectAnswer() {
+    let operand1 = parseInt(getElementById(`operand1`).innerText);
+    let operand2 = parseInt(getElementById(`operand2`).innerText);
+    let operator = getElementById("operator").innerText;
+
+    if (operator === "+") {
+        return [operand1 + operand2, "addition"];
+    } else {
+        alert(`Unimplemented Operator $(operator)`);
+        throw(`Unimplemented Operator $(operator). Aborting!`;
+    }
 
 }
 
